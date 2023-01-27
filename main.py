@@ -29,7 +29,7 @@ while game_is_on:
             game_is_on = False
             scoreboard.game_over()
     
-    # checks if we've reached the end and then speeds up the the cars:
+    # checks if we've reached the end and then speeds up the cars:
         if player.won_level():
             cars.speed_up()
             scoreboard.level_up()
